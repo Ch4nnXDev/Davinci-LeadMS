@@ -19,11 +19,11 @@ export default function RootLayout({
     <html
       lang="en"
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col w-full">
         <SidebarProvider>
           <div className="flex flex-1">
             <AppSidebar />
-            <main>
+            <main className="flex-1">
               <SidebarTrigger />
               {children}
             </main>
