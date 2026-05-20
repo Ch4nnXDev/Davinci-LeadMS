@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import {SidebarProvider, SidebarTrigger} from "@/components/ui/sidebar";
-import {AppSidebar} from "@/components/Sidebar";
 import "./globals.css";
 
 
@@ -19,17 +17,14 @@ export default function RootLayout({
     <html
       lang="en"
     >
-      <body className="min-h-full flex flex-col w-full">
-        <SidebarProvider>
-          <div className="flex flex-1">
-            <AppSidebar />
-            <main className="flex-1">
-              <SidebarTrigger />
-              {children}
-            </main>
-          </div>
-        </SidebarProvider>
-        </body>
+      <body className="min-h-full flex flex-col w-full"> 
+        
+        <main className="flex-1">
+          {children}
+        
+        </main>
+        
+      </body>
     </html>
   );
 }
