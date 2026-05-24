@@ -15,15 +15,16 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="en" 
+      
     >
-      <body className="min-h-full flex flex-col w-full"> 
+      <body className="h-screen flex flex-col w-full"> 
         
         <main className="flex-1">
           {children}
         
         </main>
-        
+
       </body>
     </html>
   );
