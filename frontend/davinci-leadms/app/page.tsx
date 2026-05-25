@@ -7,7 +7,7 @@ export default function Home() {
   const router = useRouter();
 
   function getStartedButton() {
-    router.push("/main");
+    router.push("/dashboard");
   }
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-green-50 h-screen">
