@@ -19,6 +19,8 @@ export function NavMain({
     icon?: React.ReactNode
   }[]
 }) {
+
+  
   return (
     <TooltipProvider>
       <SidebarGroup>
@@ -31,7 +33,7 @@ export function NavMain({
               >
                 <CirclePlusIcon
                 />
-                <span>Quick Create</span>
+                <span onClick={() => window.location.href = ""}>Quick Create</span>
               </SidebarMenuButton>
                 
 

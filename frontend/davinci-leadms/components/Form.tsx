@@ -11,6 +11,22 @@ export function Form() {
                             <FieldLabel>Name</FieldLabel>
                             <FieldContent></FieldContent>
                         </Field>
+                        <Field>
+                            <FieldLabel>Email</FieldLabel>
+                            <FieldContent></FieldContent>
+                        </Field>
+                        <Field>
+                            <FieldLabel>Area</FieldLabel>
+                            <FieldContent></FieldContent>
+                        </Field>
+                        <Field>
+                            <FieldLabel>Mobile</FieldLabel>
+                            <FieldContent></FieldContent>
+                        </Field>
+                        
+
+
+
 
                     </FieldGroup>
                 </FieldSet>
